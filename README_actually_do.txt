@@ -9,7 +9,7 @@ TO "INSTALL" THE REPO
  * Run "git clone https://github.com/nathanielasun/"
  * Then run "git init"
  * Run a github pull to make sure all files are updated "git pull origin main"
- * * This should say everything's already updated
+ * * This should say "Already up to date."
 
 You should now see the files in your directory
 
