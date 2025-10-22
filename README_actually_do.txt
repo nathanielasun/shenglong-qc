@@ -21,7 +21,8 @@ VERY IMPORTANT!!!!
 To push
  - git add yourfile.ipynb ("git add ." works, but updates all files concurrently)
  - git commit -m "message"
- - git pull --rebase (this ensures your local edits are saved while pulling everyone else's)
+ - git stash #this ensures your local edits are safely copied
+ - git pull --rebase #pulls global updates without changing your stashed updates
  - git push -u origin main
 
 LET ME KNOW BEFORE YOU MAKE ANY MAJOR EDITS TO COLLAB NOTEBOOKS (work in your personal one)
