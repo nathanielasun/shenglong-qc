@@ -13,12 +13,15 @@ TO "INSTALL" THE REPO
 
 You should now see the files in your directory
 
-MAKE SURE TO PULL BEFORE YOU MAKE LOCAL EDITS
- - git pull origin main
+VERY IMPORTANT!!!!
+ - Best practice is to push ONLY THE EDITS ON YOUR FILE
+ - Use "git add yournotebook.ipynb" instead of "git add ."
+ - This can lead to merge hell if you don't, as other's code will be overwritten
 
 To push
- - git add . #the dot adds all files automatically, if you want to add specific files use "git add filename"
+ - git add yourfile.ipynb ("git add ." works, but updates all files concurrently)
  - git commit -m "message"
+ - git pull --rebase (this ensures your local edits are saved while pulling everyone else's)
  - git push -u origin main
 
 LET ME KNOW BEFORE YOU MAKE ANY MAJOR EDITS TO COLLAB NOTEBOOKS (work in your personal one)
