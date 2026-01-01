@@ -1,6 +1,10 @@
 SHENGLONG'S QUANTUM GROUP LIVE GITHUB
 
-TO "INSTALL" THE REPO
+The GPU-accelerated statevector simulator code is listed competely in mps_accel_qc.ipynb
+ - This is currently under refactoring into python subclasses, but currently exists as a single ipynb
+
+#basic instructions for group members
+**TO `INSTALL` THE REPO**
  * Install git for terminal: 
  * * Windows (use "winget install git.git" then restart terminal)
  * * macOS (use "brew install git")
@@ -13,12 +17,12 @@ TO "INSTALL" THE REPO
 
 You should now see the files in your directory
 
-VERY IMPORTANT!!!!
+**VERY IMPORTANT!!!!**
  - Best practice is to push ONLY THE EDITS ON YOUR FILE
  - Use "git add yournotebook.ipynb" instead of "git add ."
  - This can lead to merge hell if you don't, as other's code will be overwritten
 
-To push
+*To push*
  - git add yourfile.ipynb ("git add ." works, but updates all files concurrently)
  - git commit -m "message"
  - git stash #this ensures your local edits are safely copied
@@ -27,7 +31,7 @@ To push
 
 LET ME KNOW BEFORE YOU MAKE ANY MAJOR EDITS TO COLLAB NOTEBOOKS (work in your personal one)
 
-THANKS
+THANKS,
 Nate
 
 Email or text me if you have questions
