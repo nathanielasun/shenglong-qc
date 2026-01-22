@@ -6,3 +6,7 @@
 [submodule "qcbuilder"]
 	path = web_qc_builder
 	url = https://github.com/nathanielasun/qcbuilder
+
+[submodule "qcjs"]
+	path = gpuqc_js
+	url = https://github.com/nathanielasun/qcjs
