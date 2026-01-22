@@ -1,0 +1,3 @@
+[submodule "pytorchqc"]
+	path = pytorchqc
+	url = https://github.com/nathanielasun/gpuqc

@@ -1,0 +1,52 @@
+{
+  "name": "gpuqc_js",
+  "version": "0.1.0",
+  "description": "High-performance statevector quantum circuit simulator with GPU acceleration via TensorFlow.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "examples": "node examples.js",
+    "start": "node examples.js"
+  },
+  "keywords": [
+    "quantum",
+    "quantum-computing",
+    "quantum-circuit",
+    "simulator",
+    "statevector",
+    "tensorflow",
+    "gpu",
+    "cuda",
+    "metal",
+    "webgpu"
+  ],
+  "author": "Nathaniel Sun",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.17.0"
+  },
+  "optionalDependencies": {
+    "@tensorflow/tfjs-node": "^4.17.0",
+    "@tensorflow/tfjs-node-gpu": "^4.17.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "files": [
+    "index.js",
+    "gates.js",
+    "circuit.js",
+    "utils.js",
+    "visualization.js",
+    "examples.js",
+    "README.md"
+  ]
+}
