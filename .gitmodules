@@ -9,3 +9,6 @@
 [submodule "qcjs"]
 	path = qcjs
 	url = https://github.com/nathanielasun/qcjs
+[submodule "qtictactoe"]
+	path = qtictactoe
+	url = https://github.com/nathanielasun/qtictactoe
