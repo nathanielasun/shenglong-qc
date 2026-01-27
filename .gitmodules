@@ -12,3 +12,10 @@
 [submodule "qtictactoe"]
 	path = qtictactoe
 	url = https://github.com/nathanielasun/qtictactoe
+[submodule "tiqtaqtoe"]
+	path = tiqtaqtoe
+	url = https://github.com/nathanielasun/tiqtaqtoe
+[submodule "qwordle"]
+	path = qwordle
+	url = https://github.com/nathanielasun/qwordle
+
